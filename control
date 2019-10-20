@@ -1,0 +1,9 @@
+Package: com.hamdan.garage
+Name: garage
+Depends: mobilesubstrate, com.opa334.ccsupport
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Garage Opener!
+Maintainer: SmartBoy84
+Author: SmartBoy84
+Section: Control Center (Modules)
