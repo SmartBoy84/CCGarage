@@ -26,7 +26,7 @@
 - (void)garage{
     pid_t pid;
     int status;
-    const char* args[] = {"curl", "http://gabba.ga/open", NULL};
+    const char* args[] = {"curl", "http://example.com/open", NULL};
     posix_spawn(&pid, "/usr/bin/curl", NULL, NULL, (char* const*)args, NULL);
     waitpid(pid, &status, WEXITED);
 }
